@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hw14_patel.MainActivity"
+    android:background="@drawable/title">>
+
+    <ImageView
+        android:id="@+id/play"
+        android:layout_width="219dp"
+        android:layout_height="117dp"
+        android:layout_above="@+id/highscore"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="88dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/play" />
+
+    <ImageView
+        android:id="@+id/highscore"
+        android:layout_width="182dp"
+        android:layout_height="89dp"
+        android:layout_alignStart="@+id/play"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginBottom="7dp"
+        android:background="@drawable/high_score" />
+</RelativeLayout>
